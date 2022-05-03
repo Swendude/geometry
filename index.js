@@ -7,7 +7,7 @@ function circumference(w, h) {
 }
 
 function diagonal(w, h) {
-  return Math.sqrt(w * w + h * h);
+  return Math.sqrt(Math.pow(w, 2) + Math.pow(h, 2));
 }
 
 module.exports = { area, circumference, diagonal };
