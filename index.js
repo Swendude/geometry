@@ -9,3 +9,5 @@ function circumference(w, h) {
 function diagonal(w, h) {
   return Math.sqrt(w * w + h * h);
 }
+
+module.exports = { area, circumference, diagonal };
